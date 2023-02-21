@@ -1,10 +1,10 @@
-﻿/* Задайте двумерный массив из целых чисел.
-Найдите среднее арифметическое элементов в каждом столбце.
+﻿/*Напишите программу, которая на вход принимает позиции элемента в двумерном массиве,
+и возвращает значение этого элемента или же указание, что такого элемента нет.
 Например, задан массив:
 1 4 7 2
 5 9 2 3
 8 4 2 4
-Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.*/
+17 -> такого числа в массиве нет*/
 Console.Clear();
 int[,] GetArray(int m, int n, int minValue, int maxValue)
 {
@@ -30,23 +30,22 @@ void PrintArray(int[,] inArray)
         Console.WriteLine();
     }
 }
-void ElSum(int[,] inArray)
+void ElSearch(int[,] inArray, int numStr, int numCol)
 {
-    for (int j = 0; j < inArray.GetLength(1); j++)
-    {
-        double sum = 0;
-        for (int i = 0; i < inArray.GetLength(0); i++)
-        {
-            sum += inArray[i, j];
-        }
-        double arfSum = Math.Round(sum/inArray.GetLength(0),2);
-        Console.Write($"{arfSum}, ");
-    }
+    if (inArray.GetLength(0) > numStr && inArray.GetLength(1) > numCol)
+    Console.WriteLine(inArray[numStr,numCol]);
+    else
+    Console.WriteLine("Такого числа нет");
 }
 Console.Write("Введите кол-во строк: ");
 int str = int.Parse(Console.ReadLine()!);
 Console.Write("Введите кол-во столбцов: ");
 int col = int.Parse(Console.ReadLine()!);
 int[,] array = GetArray(str, col, -15, 20);
+Console.Write("Введите номер строки: ");
+int numStr = int.Parse(Console.ReadLine()!)-1;
+Console.Write("Введите номер столбца: ");
+int numCol = int.Parse(Console.ReadLine()!)-1;
 PrintArray(array);
-ElSum(array);
+ElSearch(array, numStr, numCol);
+
