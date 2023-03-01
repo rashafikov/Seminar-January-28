@@ -1,0 +1,15 @@
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\bin\Debug\net6.0\Задача 68.exe
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\bin\Debug\net6.0\Задача 68.deps.json
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\bin\Debug\net6.0\Задача 68.runtimeconfig.json
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\bin\Debug\net6.0\Задача 68.dll
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\bin\Debug\net6.0\Задача 68.pdb
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\Задача 68.csproj.AssemblyReference.cache
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\Задача 68.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\Задача 68.AssemblyInfoInputs.cache
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\Задача 68.AssemblyInfo.cs
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\Задача 68.csproj.CoreCompileInputs.cache
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\Задача 68.dll
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\refint\Задача 68.dll
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\Задача 68.pdb
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\Задача 68.genruntimeconfig.cache
+C:\Users\ramil\Desktop\GIT\HW\Seminar January 28\Задача 68\obj\Debug\net6.0\ref\Задача 68.dll
